@@ -1,0 +1,130 @@
+body {
+  font-family: sans-serif;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+a.selectors {
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px;
+  background-color: lightblue;
+  border: 3px solid lightgrey;
+  font-weight: lighter;
+  margin: 10px;
+  border-radius: 30px;
+  color: white;
+}
+
+a.selectors:hover,
+.advanced-button:hover {
+  background-color: blue;
+}
+
+.navbar {
+  float: right;
+  margin-top: 15px;
+  display: flex;
+}
+
+.logo {
+  height: 100px;
+  width: 200px;
+  margin-left: 15px;
+  float: left;
+  position: fixed;
+}
+
+input.searchbar {
+  border-radius: 30px;
+  padding: 15px 20px;
+  box-shadow: 0px 0px 6px 3px lightslategray;
+  border: 1px;
+  width: 600px;
+  max-width: 750px;
+  text-indent: 25px;
+  background: url("https://upload.wikimedia.org/wikipedia/commons/d/df/Magnifying-glass-1976105_640.png")
+    no-repeat 20px;
+  background-size: 17px;
+}
+
+input.searchbar:focus {
+  outline: none;
+}
+input.button {
+  float: right;
+  margin: 0px 5px 0px 25px;
+}
+
+#search {
+  display: inline-flex;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+div.searchbar {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+a.link {
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px;
+  background-color: lightblue;
+  border: 3px solid lightgrey;
+  font-weight: lighter;
+  margin: 10px;
+  border-radius: 30px;
+  float: right;
+}
+
+.search-container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.advanced {
+  padding: 5px;
+  width: 300%;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+}
+
+.advanced-button {
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px;
+  background-color: lightblue;
+  border: 3px solid lightgrey;
+  font-weight: lighter;
+  margin: 10px;
+  border-radius: 30px;
+  color: white;
+}
+
+table {
+  align-self: left;
+}
+
+h3 {
+  color: red;
+  padding: 20px;
+  margin-top: 7%;
+  font-weight: lighter;
+}
